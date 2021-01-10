@@ -1,6 +1,6 @@
 import React from 'react';
 import getRate from '../../REST/REST';
-import FilmComponent from './FilmsInfo'
+import FilmComponent from './filmsInfo/FilmsInfo'
 import './Films.css';
 
 export default class Films extends React.PureComponent {
@@ -10,15 +10,12 @@ export default class Films extends React.PureComponent {
         this.state = {
             films: [],
         };
-        this.init();
     }
-    
-    init =() => {
-        
+
+    componentDidMount = () => {
         getRate().then(res => this.saveInfo(res))
-        
     }
-    
+
     saveInfo = filmsDB => {
         this.setState(()=> ({
             films: filmsDB.films,
@@ -32,7 +29,6 @@ export default class Films extends React.PureComponent {
 
     click = event => {
         this.props.closeCard(event.target.id);
-        console.log(this.props.filmsState)   
     }
     
     render = () => {

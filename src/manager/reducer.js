@@ -1,5 +1,4 @@
 import constants from '../constants/constants';
-import films from '../modules/films';
 
 const initialState = {
     films: [],
@@ -18,6 +17,7 @@ export default (state = initialState, action) => {
                 films:
                 state.films.map(item => item.filmId == action.payload ?{...item, isClosed: true}:item)
             }
+
         default:
             return state;
     }

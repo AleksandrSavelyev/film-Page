@@ -1,0 +1,19 @@
+.header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__buttons {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.header__buttons:hover {
+    font-size: 31px;
+}
+
+.header__link {
+    text-decoration: none;
+}

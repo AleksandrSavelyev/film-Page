@@ -1,11 +1,14 @@
 .filmContainer {
     height: 250px;
     width: 200px;
+    margin: 10px;
     border: solid;
+    border-color: gold;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: gold;
 }
 
 .close_button_wraper {
@@ -15,7 +18,7 @@
 
 .close { 
     font-size: 18px;
-
+    color: red;
 }
 
 img {
