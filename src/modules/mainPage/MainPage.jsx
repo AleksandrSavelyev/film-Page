@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import HomePage from '../homePage/HomePage';
+import HomePage from '../homePage';
 import Films from '../films';
 import About from '../about/About'
 import NavBar from '../navBar/NavBar'

@@ -7,7 +7,7 @@ const FilmComponent = props => {
             <div className={'close_button_wraper'}>
                 <span className={'close'} children={'X'} onClick={props.onClick} id={props.filmId}/>
             </div>
-            <img src={props.poster} />
+            <img className={'film_poster'} src={props.poster} />
             <span children={props.nameRu} />
             <span children={'год: '+props.year} />
             <span children={'оценка: '+props.rating} />

@@ -2,3 +2,14 @@ h1 {
     color: gold;
     text-align: center;
 }
+
+.home_page_wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel_wraper {
+    height: 600px;
+    width: 500px;
+}
