@@ -1,8 +1,8 @@
 import React, { Suspense } from 'react';
 import HomePage from '../homePage';
 import Films from '../films';
-import About from '../about/About'
-import NavBar from '../navBar/NavBar'
+import About from '../about/About.jsx'
+import NavBar from '../navBar/NavBar.jsx'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 

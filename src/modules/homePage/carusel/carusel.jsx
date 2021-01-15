@@ -14,7 +14,7 @@ const FilmCarousel = props => {
                         className="d-block w-100"
                         src={item}
                     />
-                </Carousel.Item>
+                    </Carousel.Item>
                 ))
             }
         </Carousel>

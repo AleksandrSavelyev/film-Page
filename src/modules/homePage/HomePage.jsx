@@ -1,7 +1,7 @@
 import React from 'react';
 import './homePage.css';
 import getRate from '../../REST/REST'
-import FilmCarousel from './carusel/carusel'
+import FilmCarousel from './carusel/carusel.jsx'
 
 export default class HomePage extends React.PureComponent {
     constructor (props) {

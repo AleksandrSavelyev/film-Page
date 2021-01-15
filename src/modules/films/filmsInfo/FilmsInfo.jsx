@@ -1,5 +1,5 @@
+import './FilmsInfo.css';
 import React from 'react';
-import './FilmsInfo.css'
 
 const FilmComponent = props => {
     return (

@@ -1,7 +1,7 @@
+import './Films.css';
 import React from 'react';
 import getRate from '../../REST/REST';
-import FilmComponent from './filmsInfo/FilmsInfo'
-import './Films.css';
+import FilmComponent from './filmsInfo/FilmsInfo.jsx'
 
 export default class Films extends React.PureComponent {
     constructor(props) {
@@ -33,7 +33,7 @@ export default class Films extends React.PureComponent {
     
     render = () => {
         return(
-        <div className={'cont'}>
+        <div className={'all_films_wraper'}>
             {
                 this.props.filmsState.map((item, index) => (
                     !item.isClosed? <FilmComponent

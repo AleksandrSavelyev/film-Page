@@ -14,11 +14,15 @@
 .close_button_wraper {
     display: flex;
     flex-direction: row-reverse;
+    position: relative;
 }
 
 .close { 
     font-size: 18px;
     color: red;
+    position: absolute;
+    left: 70px;
+    cursor: pointer;
 }
 
 .film_poster {
